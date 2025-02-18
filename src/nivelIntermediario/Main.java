@@ -18,12 +18,13 @@ public class Main {
         Sasuke.SharinganAtivado();
 
         //OBJETO 3
-        Ninja Sakura = new Ninja();
+        Haruno Sakura = new Haruno();
         Sakura.nome = "Sakura Haruno";
         Sakura.aldeia = "Aldeia da Folha";
         Sakura.idade = 18;
-        int quantoTempoFalta = Sakura.AnosParaSeTornarHokage(70);
-        System.out.println(quantoTempoFalta);
+        Sakura.AtivarCura();
+        //int quantoTempoFalta = Sakura.AnosParaSeTornarHokage(70);
+        //System.out.println(quantoTempoFalta);
 
    }
 }
