@@ -26,6 +26,12 @@ public class Main {
         //int quantoTempoFalta = Sakura.AnosParaSeTornarHokage(70);
         //System.out.println(quantoTempoFalta);
 
+        //OBJETO 4
+        Hyuuga Hinata = new Hyuuga();
+        Hinata.nome = "Hinata Hyuuga";
+        Hinata.aldeia = "Aldeia da folha";
+        Hinata.idade = 18;
+        Hinata.ByakuganAtivado();
    }
 }
 
